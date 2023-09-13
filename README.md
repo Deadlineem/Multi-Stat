@@ -19,6 +19,10 @@ and then run
 After installing minestat, you can test it using 
 
     MineStat -Address <host> -Port <port> -Protocol <protocol> -Timeout 1
+    
+Example:
+
+    Minestat -Address localhost -Port 19132 -Protocol BecrockRaknet -Timeout 1
 
 If you are planning to host MineStat on a shared webhost, make sure 
 that the provider allows outbound sockets.		     
