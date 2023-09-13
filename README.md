@@ -1,8 +1,7 @@
-![alt text](https://github.com/Deadlineem/Multi-Stat/blob/398fce629c8af449be984356972f8f8273581dc0/images/logo.png)
+![Multi-Stat](https://github.com/Deadlineem/Multi-Stat/blob/398fce629c8af449be984356972f8f8273581dc0/images/logo.png)
 
 Multi-Stat is a Free to use server status checker coded in php/html/css
 it is designed for use with MineStat's Powershell module
-
 
 To install MineStat, open Windows Powershell as Administrator
 Once powershell is opened type 
@@ -34,16 +33,16 @@ values, you can change these to accommodate your site.
 
 Below that you will see 
 
-    "berockIP = array("localhost");
+    berockIP = array("localhost");
     
-You can add or edit this accordingly, separating each
+You can add to or edit this accordingly, separating each
 host with a comma.
 
 Below that you will see 
 
-    "javaIP = array("localhost");
+    javaIP = array("localhost");
     
-You can add or edit this accordingly, separating each
+You can add to or edit this accordingly, separating each
 host with a comma.
 
 After you are done setting it up, visit the page by typing
