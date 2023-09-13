@@ -9,9 +9,9 @@ Once powershell is opened type
 
     Install-Module -Name MineStat
 
-If you get an error run 
+If you get an error run the command below in powershell
 
-    set-executionpolicy remotesigned in powershell
+    set-executionpolicy remotesigned
     
 and then run 
 
