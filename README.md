@@ -33,3 +33,6 @@ host with a comma.
 
 After you are done setting it up, visit the page by typing
 localhost in your browser
+
+
+For more information about MineStat, visit https://github.com/FragLand/minestat/tree/master
