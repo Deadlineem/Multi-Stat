@@ -27,8 +27,9 @@ If you are planning to host MineStat on a shared webhost, make sure
 that the provider allows outbound sockets.		     
 
 
+
 To use Multi-Stat after installing MineStat, simply download it and
-add it into your IIS/Wamp/Xampp website folder then edit the 
+add it into your IIS/Wamp/Xampp or hosted website folder then edit the 
 settings.php file.
 
 Inside the settings.php you will find the site title and header
