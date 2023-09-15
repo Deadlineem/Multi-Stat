@@ -28,6 +28,8 @@ NOTE: It is recommended that after installing minestat, you change the powershel
         C:\Program Files\WindowsPowerShell\Modules\MineStat\<version>
 and replace the MineStat.psm1 with the one in Multi-Stat/minestat/PowerShell
 
+*
+*
 
 If you are planning to host MineStat on a shared webhost, make sure 
 that the provider allows outbound sockets.		     
