@@ -3,8 +3,7 @@
 Multi-Stat is a Free to use server status checker coded in php/html/css
 it is designed for use with MineStat's Powershell module
 
-To install MineStat, open Windows Powershell as Administrator
-Once powershell is opened type 
+To install MineStat, open Windows Powershell as Administrator, once powershell is opened type 
 
     Install-Module -Name MineStat
 
