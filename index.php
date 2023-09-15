@@ -104,17 +104,17 @@
 					$output = str_replace('}', ', ', str_replace('{.', '', $output)); //removes brackets and dots from usernames
 					if(str_contains($output, "Offline"))
 					{
-						 $bedrockStatus = false; // Return Java server status
+						 $bedrockStatus = false; // Return Bedrock server status
 						 $statusType = "Offline";
 					}
 					elseif(str_contains($output, "Timeout"))
 					{
-						$bedrockStatus = false; // Return Java server status
+						$bedrockStatus = false; // Return Bedrock server status
 						$statusType = "Timed Out";
 					}
 					elseif(str_contains($output, "ConnFail"))
 					{
-						$bedrockStatus = false; // Return Java server status
+						$bedrockStatus = false; // Return Bedrock server status
 						$statusType = "Connection Failure";
 					}
 					else
