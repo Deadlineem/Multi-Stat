@@ -26,7 +26,8 @@ After installing minestat, you can test it using
 NOTE: It is recommended that after installing minestat, you change the powershell file to the one provided in Multi-Stat.  To do so, go to
 
         C:\Program Files\WindowsPowerShell\Modules\MineStat\<version>
-and replacing the MineStat.psm1 with ours.
+and replace the MineStat.psm1 with the one in Multi-Stat/minestat/PowerShell
+
 
 If you are planning to host MineStat on a shared webhost, make sure 
 that the provider allows outbound sockets.		     
