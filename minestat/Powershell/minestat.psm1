@@ -105,6 +105,7 @@ function MineStat {
 
   class ServerStatus {
     [string]$address = "localhost"
+    [string]$name = "N/A"
     [uint16]$port = 25565
     [bool]$online = $false
     [string]$version 
@@ -401,8 +402,9 @@ function MineStat {
       $this.online = $true;
       $this.current_players = $payload_obj.current_players
       $this.max_players = $payload_obj.max_players
-      $this.version = @($payload_obj.version, $payload_obj.motd_2, "($($payload_obj.edition))") -ne $null -join " "
-      $this.motd = $payload_obj.motd_1
+      $this.version = @($payload_obj.version, "($($payload_obj.edition))") -ne $null -join " "
+      $this.name = $payload_obj.motd_1
+      $this.motd = $payload_obj.motd_2
       $this.generateMotds($this.motd)
       $this.Gamemode = $payload_obj.gamemode
 
