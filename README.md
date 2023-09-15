@@ -3,7 +3,7 @@
 Multi-Stat is a Free to use server status checker coded in php/html/css
 it is designed for use with MineStat's Powershell module
 
-[![GitHub version](https://github.com/Deadlineem/Multi-Stat/releases/latest)](https://github.com/Deadlineem/Multi-Stat/releases/latest)
+[![GitHub version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&r=r&ts=1683906897&type=6e&v=0.2.2&x2=0)](https://github.com/Deadlineem/Multi-Stat/releases/latest)
 
 Screenshots: https://imgur.com/a/dWDxNG5 (v0.2.1)
 
